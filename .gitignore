@@ -24,3 +24,15 @@ Thumbs.db
 # Temporary files
 *.tmp
 *.temp
+
+# Client
+client/node_modules/
+client/dist/
+client/dist-ssr/
+client/*.local
+
+# Server
+server/node_modules/
+server/data/*.csv
+server/data/*.zip
+server/dist/
