@@ -1,0 +1,246 @@
+[
+  {
+    "brandName": "Metformin 500mg",
+    "genericName": "Metformin Hydrochloride",
+    "category": "Antidiabetic",
+    "dosageForm": "Tablet",
+    "strength": "500mg",
+    "manufacturer": "Sample Pharma",
+    "contraindications": {
+      "conflictingConditions": ["Kidney Disease", "Liver Disease", "Severe Heart Failure"],
+      "conflictingDrugs": ["Alcohol", "Iodinated Contrast"],
+      "vitalThresholds": {
+        "bloodSugar": { "minSugar": 70 },
+        "bloodPressure": { "maxSystolic": 200, "maxDiastolic": 110 }
+      }
+    }
+  },
+  {
+    "brandName": "Aspirin 75mg",
+    "genericName": "Acetylsalicylic Acid",
+    "category": "Painkiller",
+    "dosageForm": "Tablet",
+    "strength": "75mg",
+    "manufacturer": "Sample Pharma",
+    "contraindications": {
+      "conflictingConditions": ["Peptic Ulcer", "Bleeding Disorder", "Asthma"],
+      "conflictingDrugs": ["Warfarin", "Ibuprofen", "Methotrexate"],
+      "bloodGroupRestrictions": { "incompatible": ["O-"], "note": "Higher bleeding risk" },
+      "vitalThresholds": {
+        "bloodPressure": { "maxSystolic": 180, "maxDiastolic": 100 }
+      }
+    }
+  },
+  {
+    "brandName": "Amlodipine 5mg",
+    "genericName": "Amlodipine Besylate",
+    "category": "Antihypertensive",
+    "dosageForm": "Tablet",
+    "strength": "5mg",
+    "manufacturer": "Sample Pharma",
+    "contraindications": {
+      "conflictingConditions": ["Severe Hypotension", "Cardiogenic Shock"],
+      "conflictingDrugs": ["Simvastatin"],
+      "vitalThresholds": {
+        "bloodPressure": { "minSystolic": 90, "minDiastolic": 60 },
+        "heartRate": { "minBpm": 50 }
+      }
+    }
+  },
+  {
+    "brandName": "Atenolol 50mg",
+    "genericName": "Atenolol",
+    "category": "Antihypertensive",
+    "dosageForm": "Tablet",
+    "strength": "50mg",
+    "manufacturer": "Sample Pharma",
+    "contraindications": {
+      "conflictingConditions": ["Bradycardia", "Heart Block", "Severe Heart Failure", "Asthma"],
+      "conflictingDrugs": ["Verapamil", "Diltiazem"],
+      "vitalThresholds": {
+        "heartRate": { "minBpm": 55 },
+        "bloodPressure": { "minSystolic": 100, "minDiastolic": 65 }
+      }
+    }
+  },
+  {
+    "brandName": "Lisinopril 10mg",
+    "genericName": "Lisinopril",
+    "category": "Antihypertensive",
+    "dosageForm": "Tablet",
+    "strength": "10mg",
+    "manufacturer": "Sample Pharma",
+    "contraindications": {
+      "conflictingConditions": ["Angioedema", "Pregnancy"],
+      "conflictingDrugs": ["Potassium Supplements", "Spironolactone"],
+      "bloodGroupRestrictions": { "incompatible": ["AB+"], "note": "May cause angioedema" },
+      "vitalThresholds": {
+        "bloodPressure": { "minSystolic": 95, "minDiastolic": 60 },
+        "heartRate": { "minBpm": 50 }
+      }
+    }
+  },
+  {
+    "brandName": "Ibuprofen 400mg",
+    "genericName": "Ibuprofen",
+    "category": "Painkiller",
+    "dosageForm": "Tablet",
+    "strength": "400mg",
+    "manufacturer": "Sample Pharma",
+    "contraindications": {
+      "conflictingConditions": ["Peptic Ulcer", "Kidney Disease", "Heart Failure", "Asthma"],
+      "conflictingDrugs": ["Aspirin", "Warfarin", "Methotrexate", "Lithium"],
+      "vitalThresholds": {
+        "bloodPressure": { "maxSystolic": 160, "maxDiastolic": 100 },
+        "heartRate": { "maxBpm": 120 }
+      }
+    }
+  },
+  {
+    "brandName": "Metoprolol 50mg",
+    "genericName": "Metoprolol Tartrate",
+    "category": "Antihypertensive",
+    "dosageForm": "Tablet",
+    "strength": "50mg",
+    "manufacturer": "Sample Pharma",
+    "contraindications": {
+      "conflictingConditions": ["Severe Bradycardia", "Heart Block", "Cardiogenic Shock"],
+      "conflictingDrugs": ["Verapamil", "Clonidine"],
+      "vitalThresholds": {
+        "heartRate": { "minBpm": 50, "maxBpm": 100 },
+        "bloodPressure": { "minSystolic": 100 }
+      }
+    }
+  },
+  {
+    "brandName": "Omeprazole 20mg",
+    "genericName": "Omeprazole",
+    "category": "Antacid",
+    "dosageForm": "Capsule",
+    "strength": "20mg",
+    "manufacturer": "Sample Pharma",
+    "contraindications": {
+      "conflictingDrugs": ["Clopidogrel", "Methotrexate", "Citalopram"],
+      "vitalThresholds": {
+        "bloodSugar": { "maxSugar": 200 }
+      }
+    }
+  },
+  {
+    "brandName": "Atorvastatin 20mg",
+    "genericName": "Atorvastatin Calcium",
+    "category": "Cardiovascular",
+    "dosageForm": "Tablet",
+    "strength": "20mg",
+    "manufacturer": "Sample Pharma",
+    "contraindications": {
+      "conflictingConditions": ["Liver Disease"],
+      "conflictingDrugs": ["Gemfibrozil", "Niacin", "Clarithromycin"],
+      "bloodGroupRestrictions": { "incompatible": ["A+"], "note": "Higher myopathy risk" },
+      "vitalThresholds": {
+        "bloodSugar": { "maxSugar": 180 },
+        "bloodPressure": { "maxSystolic": 180 }
+      }
+    }
+  },
+  {
+    "brandName": "Warfarin 5mg",
+    "genericName": "Warfarin Sodium",
+    "category": "Cardiovascular",
+    "dosageForm": "Tablet",
+    "strength": "5mg",
+    "manufacturer": "Sample Pharma",
+    "contraindications": {
+      "conflictingConditions": ["Bleeding Disorder", "Active Ulcer", "Severe Liver Disease"],
+      "conflictingDrugs": ["Aspirin", "Ibuprofen", "Metronidazole", "Fluconazole"],
+      "bloodGroupRestrictions": { "incompatible": ["O+", "O-"], "note": "Higher INR variability" },
+      "vitalThresholds": {
+        "bloodPressure": { "maxSystolic": 160, "maxDiastolic": 100 },
+        "heartRate": { "maxBpm": 100, "minBpm": 60 }
+      }
+    }
+  },
+  {
+    "brandName": "Prednisolone 10mg",
+    "genericName": "Prednisolone",
+    "category": "Other",
+    "dosageForm": "Tablet",
+    "strength": "10mg",
+    "manufacturer": "Sample Pharma",
+    "contraindications": {
+      "conflictingConditions": ["Systemic Fungal Infection", "Osteoporosis", "Diabetes"],
+      "conflictingDrugs": ["NSAIDs", "Aspirin", "Warfarin"],
+      "bloodGroupRestrictions": { "incompatible": ["B-", "AB-"], "note": "Immunosuppression risk" },
+      "vitalThresholds": {
+        "bloodSugar": { "maxSugar": 200 },
+        "bloodPressure": { "maxSystolic": 160, "maxDiastolic": 100 },
+        "heartRate": { "maxBpm": 110 }
+      }
+    }
+  },
+  {
+    "brandName": "Salbutamol 4mg",
+    "genericName": "Salbutamol",
+    "category": "Respiratory",
+    "dosageForm": "Tablet",
+    "strength": "4mg",
+    "manufacturer": "Sample Pharma",
+    "contraindications": {
+      "conflictingConditions": ["Tachyarrhythmia", "Thyrotoxicosis"],
+      "conflictingDrugs": ["Propranolol", "Metoprolol"],
+      "vitalThresholds": {
+        "heartRate": { "maxBpm": 100 },
+        "bloodPressure": { "maxSystolic": 170 }
+      }
+    }
+  },
+  {
+    "brandName": "Amoxicillin 500mg",
+    "genericName": "Amoxicillin",
+    "category": "Antibiotic",
+    "dosageForm": "Capsule",
+    "strength": "500mg",
+    "manufacturer": "Sample Pharma",
+    "contraindications": {
+      "conflictingConditions": ["Penicillin Allergy"],
+      "conflictingDrugs": ["Methotrexate", "Warfarin"],
+      "vitalThresholds": {
+        "bloodPressure": { "minSystolic": 85, "minDiastolic": 55 },
+        "bloodSugar": { "minSugar": 80 }
+      }
+    }
+  },
+  {
+    "brandName": "Diclofenac 50mg",
+    "genericName": "Diclofenac Sodium",
+    "category": "Painkiller",
+    "dosageForm": "Tablet",
+    "strength": "50mg",
+    "manufacturer": "Sample Pharma",
+    "contraindications": {
+      "conflictingConditions": ["Active Peptic Ulcer", "Severe Heart Failure", "Kidney Impairment"],
+      "conflictingDrugs": ["Aspirin", "Warfarin", "SSRIs"],
+      "bloodGroupRestrictions": { "incompatible": ["A-"], "note": "Higher GI bleeding risk" },
+      "vitalThresholds": {
+        "bloodPressure": { "maxSystolic": 170, "maxDiastolic": 100 },
+        "heartRate": { "maxBpm": 110 },
+        "bloodSugar": { "maxSugar": 180 }
+      }
+    }
+  },
+  {
+    "brandName": "Cetirizine 10mg",
+    "genericName": "Cetirizine Hydrochloride",
+    "category": "Antihistamine",
+    "dosageForm": "Tablet",
+    "strength": "10mg",
+    "manufacturer": "Sample Pharma",
+    "contraindications": {
+      "conflictingDrugs": ["CNS Depressants", "Alcohol"],
+      "vitalThresholds": {
+        "heartRate": { "maxBpm": 90 },
+        "bloodPressure": { "minSystolic": 90 }
+      }
+    }
+  }
+]
